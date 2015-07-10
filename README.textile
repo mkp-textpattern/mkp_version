@@ -5,7 +5,7 @@ This is a A Textpattern plugin that adds tags for the current version number
 h2. Links
 
 * "Github Code Repository":https://github.com/michaelkpate/mkp_version
-* "Download":https://raw.githubusercontent.com/michaelkpate/mkp_gravatar/master/mkp_version.txt
+* "Download":https://raw.githubusercontent.com/michaelkpate/mkp_version/master/mkp_version.txt
 
 h2. mkp_version
 
