@@ -9,7 +9,7 @@ h2. Links
 
 h2. mkp_version
 
-Just use &lt;txp:mkp_gravatar /&gt; where ever you need the current version number to be displayed.
+Just use &lt;txp:mkp_version /&gt; where ever you need the current version number to be displayed.
 
 h3. None
 
@@ -19,10 +19,7 @@ A Conditional tag that compares the current version against a submitted value.
 
 h3. Attributes
 
-h4. version (default: 0)
-
-* 1: returns the gravatar using SSL
-* 0: returns the gravatar using non-SSL
+h4. version
 
 h2. Examples
 
