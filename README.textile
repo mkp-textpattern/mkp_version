@@ -11,7 +11,7 @@ h2. mkp_version
 
 Just use &lt;txp:mkp_version /&gt; where ever you need the current version number to be displayed.
 
-h3. None
+h3. Attributes: None
 
 h2. mkp_if_version
 
