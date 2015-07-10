@@ -1,2 +1,36 @@
-# mkp_version
-A Textpattern plugin that adds tags for the current version number
+h1. mkp_version
+
+This is a A Textpattern plugin that adds tags for the current version number
+
+h2. Links
+
+* "Github Code Repository":https://github.com/michaelkpate/mkp_version
+* "Download":https://raw.githubusercontent.com/michaelkpate/mkp_gravatar/master/mkp_version.txt
+
+h2. mkp_version
+
+Just use &lt;txp:mkp_gravatar /&gt; where ever you need the current version number to be displayed.
+
+h3. None
+
+h2. mkp_if_version
+
+A Conditional tag that compares the current version against a submitted value.
+
+h3. Attributes
+
+h4. version (default: 0)
+
+* 1: returns the gravatar using SSL
+* 0: returns the gravatar using non-SSL
+
+h2. Examples
+
+bc. <txp:version />;
+
+bc. <txp:mkp_if_version version="4.5.7"><meta name="Textpattern" content="Current: <txp:mkp_version />" /><txp:else /><meta name="Textpattern" content="Classic: <txp:mkp_version />" /></txp:if_version>
+
+h3. Release History
+
+Version 1.0: July 10th, 2015
+
