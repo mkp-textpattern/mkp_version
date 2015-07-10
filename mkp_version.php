@@ -1,4 +1,3 @@
-
 	function mkp_version()
 	{
 		extract(get_prefs());
@@ -6,21 +5,20 @@
 		return $version;
 	}
 	
-	function mkp_if_version($atts)
+	function mkp_if_version($atts, $thing)
 	{
 		extract(lAtts(array(
 			'version'   => '',
 		),$atts));
 
-		$currentversion = $version;
+		$currentversion = (!empty($version)) ? $version : '';
 		
 		extract(get_prefs());
 
-		if (strstr($version, $currentversion)) {
-			return TRUE;
-		} else {
-			return FALSE;
-		}
+		$condition = (strstr($version, $currentversion));
+
+		$out = EvalElse($thing, $condition);
+
+		return ($out);
 
 	}
-
