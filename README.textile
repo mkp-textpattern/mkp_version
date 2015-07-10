@@ -27,6 +27,8 @@ bc. <txp:version />;
 
 bc. <txp:mkp_if_version version="4.5.7"><meta name="Textpattern" content="Current: <txp:mkp_version />" /><txp:else /><meta name="Textpattern" content="Classic: <txp:mkp_version />" /></txp:if_version>
 
+bc. 	<p><span style="padding: 10px; border: 1px solid #999; background: #eee; display: block; margin: 10px 0 0 0; text-indent: 0; text-align: left; color: #600;width:600px;"><code>&lt;txp:mkp_version /&gt;</code></span></p>
+
 h3. Release History
 
 Version 1.0: July 10th, 2015
