@@ -1,0 +1,48 @@
+# Name: mkp_version v1.0 
+# Type: Public side plugin
+# Displays the current version number
+# Author: Michael K Pate
+# URL: http://www.michaelkpate.com/
+# Recommended load order: 5
+
+# .....................................................................
+# This is a plugin for Textpattern - http://textpattern.com/
+# To install: textpattern > admin > plugins
+# Paste the following text into the 'Install plugin' box:
+# .....................................................................
+
+YToxMTp7czo0OiJuYW1lIjtzOjExOiJta3BfdmVyc2lvbiI7czo2OiJhdXRob3IiO3M6MTQ6
+Ik1pY2hhZWwgSyBQYXRlIjtzOjEwOiJhdXRob3JfdXJpIjtzOjI4OiJodHRwOi8vd3d3Lm1p
+Y2hhZWxrcGF0ZS5jb20vIjtzOjc6InZlcnNpb24iO3M6MzoiMS4wIjtzOjExOiJkZXNjcmlw
+dGlvbiI7czozNToiRGlzcGxheXMgdGhlIGN1cnJlbnQgdmVyc2lvbiBudW1iZXIiO3M6NDoi
+Y29kZSI7czo0MDI6IglmdW5jdGlvbiBta3BfdmVyc2lvbigpDQoJew0KCQlleHRyYWN0KGdl
+dF9wcmVmcygpKTsNCg0KCQlyZXR1cm4gJHZlcnNpb247DQoJfQ0KCQ0KCWZ1bmN0aW9uIG1r
+cF9pZl92ZXJzaW9uKCRhdHRzLCAkdGhpbmcpDQoJew0KCQlleHRyYWN0KGxBdHRzKGFycmF5
+KA0KCQkJJ3ZlcnNpb24nICAgPT4gJycsDQoJCSksJGF0dHMpKTsNCg0KCQkkY3VycmVudHZl
+cnNpb24gPSAoIWVtcHR5KCR2ZXJzaW9uKSkgPyAkdmVyc2lvbiA6ICcnOw0KCQkNCgkJZXh0
+cmFjdChnZXRfcHJlZnMoKSk7DQoNCgkJJGNvbmRpdGlvbiA9IChzdHJzdHIoJHZlcnNpb24s
+ICRjdXJyZW50dmVyc2lvbikpOw0KDQoJCSRvdXQgPSBFdmFsRWxzZSgkdGhpbmcsICRjb25k
+aXRpb24pOw0KDQoJCXJldHVybiAoJG91dCk7DQoNCgl9DQoNCiI7czo0OiJ0eXBlIjtzOjE6
+IjAiO3M6NToib3JkZXIiO3M6MToiNSI7czo1OiJmbGFncyI7czoxOiIwIjtzOjQ6ImhlbHAi
+O3M6MTA5OToiCTxoMT5ta3BfdmVyc2lvbjwvaDE+CgoJPHA+VGhpcyBpcyBhIEEgVGV4dHBh
+dHRlcm4gcGx1Z2luIHRoYXQgYWRkcyB0YWdzIGZvciB0aGUgY3VycmVudCB2ZXJzaW9uIG51
+bWJlcjwvcD4KCgk8aDI+TGlua3M8L2gyPgoKCTx1bD4KCQk8bGk+PGEgaHJlZj0iaHR0cHM6
+Ly9naXRodWIuY29tL21pY2hhZWxrcGF0ZS9ta3BfdmVyc2lvbiI+R2l0aHViIENvZGUgUmVw
+b3NpdG9yeTwvYT48L2xpPgoJCTxsaT48YSBocmVmPSJodHRwczovL3Jhdy5naXRodWJ1c2Vy
+Y29udGVudC5jb20vbWljaGFlbGtwYXRlL21rcF9ncmF2YXRhci9tYXN0ZXIvbWtwX3ZlcnNp
+b24udHh0Ij5Eb3dubG9hZDwvYT48L2xpPgoJPC91bD4KCgk8aDI+bWtwX3ZlcnNpb248L2gy
+PgoKCTxwPkp1c3QgdXNlICZsdDt0eHA6bWtwX3ZlcnNpb24gLyZndDsgd2hlcmUgZXZlciB5
+b3UgbmVlZCB0aGUgY3VycmVudCB2ZXJzaW9uIG51bWJlciB0byBiZSBkaXNwbGF5ZWQuPC9w
+PgoKCTxoMz5Ob25lPC9oMz4KCgk8aDI+bWtwX2lmX3ZlcnNpb248L2gyPgoKCTxwPkEgQ29u
+ZGl0aW9uYWwgdGFnIHRoYXQgY29tcGFyZXMgdGhlIGN1cnJlbnQgdmVyc2lvbiBhZ2FpbnN0
+IGEgc3VibWl0dGVkIHZhbHVlLjwvcD4KCgk8aDM+QXR0cmlidXRlczwvaDM+CgoJPGg0PnZl
+cnNpb248L2g0PgoKCTxoMj5FeGFtcGxlczwvaDI+Cgo8cHJlPjxjb2RlPiZsdDt0eHA6dmVy
+c2lvbiAvJmd0OzsKPC9jb2RlPjwvcHJlPgoKPHByZT48Y29kZT4mbHQ7dHhwOm1rcF9pZl92
+ZXJzaW9uIHZlcnNpb249JnF1b3Q7NC41LjcmcXVvdDsmZ3Q7Jmx0O21ldGEgbmFtZT0mcXVv
+dDtUZXh0cGF0dGVybiZxdW90OyBjb250ZW50PSZxdW90O0N1cnJlbnQ6ICZsdDt0eHA6bWtw
+X3ZlcnNpb24gLyZndDsmcXVvdDsgLyZndDsmbHQ7dHhwOmVsc2UgLyZndDsmbHQ7bWV0YSBu
+YW1lPSZxdW90O1RleHRwYXR0ZXJuJnF1b3Q7IGNvbnRlbnQ9JnF1b3Q7Q2xhc3NpYzogJmx0
+O3R4cDpta3BfdmVyc2lvbiAvJmd0OyZxdW90OyAvJmd0OyZsdDsvdHhwOmlmX3ZlcnNpb24m
+Z3Q7CjwvY29kZT48L3ByZT4KCgk8aDM+UmVsZWFzZSBIaXN0b3J5PC9oMz4KCgk8cD5WZXJz
+aW9uIDEuMDogSnVseSAxMHRoLCAyMDE1PC9wPiI7czozOiJtZDUiO3M6MzI6IjJkNTExZDE0
+ZGEzMzVkNDgwYjIyZmQ3YjY5ZGU4MzFlIjt9
