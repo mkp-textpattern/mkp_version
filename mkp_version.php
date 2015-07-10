@@ -1,11 +1,10 @@
-	
 	if (class_exists('Textpattern_Tag_Registry')) {
 	Txp::get('Textpattern_Tag_Registry')
 		->register('mkp_version')
 		->register('mkp_if_version')
 	;
 	}
-	
+
 	function mkp_version()
 	{
 		extract(get_prefs());
@@ -30,3 +29,4 @@
 		return ($out);
 
 	}
+
