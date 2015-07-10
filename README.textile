@@ -1,6 +1,6 @@
 h1. mkp_version
 
-This is a A Textpattern plugin that adds tags for the current version number
+This is a Textpattern plugin that adds tags for the current version number
 
 h2. Links
 
