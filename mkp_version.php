@@ -1,9 +1,9 @@
-	if (class_exists('Textpattern_Tag_Registry')) {
-	Txp::get('Textpattern_Tag_Registry')
-		->register('mkp_version')
-		->register('mkp_if_version')
-	;
-	}
+// TXP 4.6 tag registration
+if (class_exists('\Textpattern\Tag\Registry')) {
+Txp::get('\Textpattern\Tag\Registry')
+->register('mkp_url_version')
+;
+}
 
 	function mkp_version()
 	{
