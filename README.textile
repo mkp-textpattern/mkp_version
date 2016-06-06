@@ -1,33 +1,35 @@
-h1. mkp_version
+<h1>mkp_version</h1>
 
-This is a Textpattern plugin that adds tags for the current version number
+<p>This is a Textpattern plugin that adds tags for the current version number</p>
 
-h2. Links
+<h2>Links</h2>
 
-* "Github Code Repository":https://github.com/michaelkpate/mkp_version
-* "Download":https://raw.githubusercontent.com/michaelkpate/mkp_version/master/mkp_version.txt
+<ul>
+	<li><a href="https://github.com/michaelkpate/mkp_version">Github Code Repository</a></li>
+	<li><a href="https://raw.githubusercontent.com/michaelkpate/mkp_version/master/mkp_version.txt">Download</a></li>
+</ul>
 
-h2. mkp_version
+<h2>mkp_version</h2>
 
-Just use &lt;txp:mkp_version /&gt; where ever you need the current version number to be displayed.
+<p>Just use &lt;txp:mkp_version /&gt; where ever you need the current version number to be displayed.</p>
 
-h3. Attributes: None
+<h3>Attributes: None</h3>
 
-h2. mkp_if_version
+<h2>mkp_if_version</h2>
 
-A Conditional tag that compares the current version against a submitted value.
+<p>A Conditional tag that compares the current version against a submitted value.</p>
 
-h3. Attributes
+<h3>Attributes</h3>
 
-h4. version
+<h4>version</h4>
 
-h2. Examples
+<h2>Examples</h2>
 
-bc. <txp:version />;
+<pre><code>&lt;txp:version /&gt;;</code></pre>
 
-bc. <txp:mkp_if_version version="4.5.7"><meta name="Textpattern" content="Current: <txp:mkp_version />" /><txp:else /><meta name="Textpattern" content="Classic: <txp:mkp_version />" /></txp:if_version>
+<pre><code>&lt;txp:mkp_if_version version=&quot;4.5.7&quot;&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Current: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;txp:else /&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Classic: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;/txp:if_version&gt;</code></pre>
 
-h3. Release History
+<h3>Release History</h3>
 
-Version 1.0: July 10th, 2015
-
+<p>Version 1.0: July 10th, 2015</p>
+<p>Version 1.1: June 6th, 2016 (Updated 4.6 Tag Registry to later version)</p>
