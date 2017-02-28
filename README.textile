@@ -11,7 +11,13 @@
 
 <h2>mkp_version</h2>
 
-<p>Just use &lt;txp:mkp_version /&gt; where ever you need the current version number to be displayed.</p>
+<p>use &lt;txp:mkp_version /&gt; to show the current version number.</p>
+
+<h3>Attributes: None</h3>
+
+<h2>mkp_generator</h2>
+
+<p>use &lt;txp:mkp_generator /&gt; to show a meta name generator tag.</p>
 
 <h3>Attributes: None</h3>
 
@@ -27,9 +33,12 @@
 
 <pre><code>&lt;txp:version /&gt;;</code></pre>
 
-<pre><code>&lt;txp:mkp_if_version version=&quot;4.5.7&quot;&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Current: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;txp:else /&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Classic: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;/txp:if_version&gt;</code></pre>
+<pre><code>&lt;txp:generator /&gt;;</code></pre>
+
+<pre><code>&lt;txp:mkp_if_version version=&quot;4.6.2&quot;&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Current: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;txp:else /&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Classic: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;/txp:if_version&gt;</code></pre>
 
 <h3>Release History</h3>
 
 <p>Version 1.0: July 10th, 2015</p>
 <p>Version 1.1: June 6th, 2016 (Updated 4.6 Tag Registry to later version)</p>
+<p>Version 1.2: February 28th, 2017 (Bug fixes; add &lt;txp:mkp_generator /&gt; )</p>
