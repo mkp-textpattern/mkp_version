@@ -35,7 +35,7 @@
 
 <pre><code<txp:generator ></code></pre>
 
-<pre><code>&lt;txp:mkp_if_version version=&quot;4.6.2&quot;&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Current: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;txp:else /&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Classic: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;/txp:if_version&gt;</code></pre>
+<pre><code><txp:mkp_if_version version="4.6.2"><meta name="Textpattern" content="Current: <txp:mkp_version />" /><txp:else /><meta name="Textpattern" content="Classic: <txp:mkp_version >" ></txp:if_version></code></pre>
 
 <h3>Release History</h3>
 
