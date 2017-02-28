@@ -31,9 +31,9 @@
 
 <h2>Examples</h2>
 
-<pre><code>&lt;txp:version /&gt;;</code></pre>
+<pre><code><txp:version ></code></pre>
 
-<pre><code>&lt;txp:generator /&gt;;</code></pre>
+<pre><code<txp:generator ></code></pre>
 
 <pre><code>&lt;txp:mkp_if_version version=&quot;4.6.2&quot;&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Current: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;txp:else /&gt;&lt;meta name=&quot;Textpattern&quot; content=&quot;Classic: &lt;txp:mkp_version /&gt;&quot; /&gt;&lt;/txp:if_version&gt;</code></pre>
 
