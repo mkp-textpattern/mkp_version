@@ -1,7 +1,9 @@
 // TXP 4.6 tag registration
 if (class_exists('\Textpattern\Tag\Registry')) {
 Txp::get('\Textpattern\Tag\Registry')
-->register('mkp_url_version')
+->register('mkp_version')
+->register('mkp_generator')
+->register('mkp_if_version')
 ;
 }
 
@@ -10,6 +12,14 @@ Txp::get('\Textpattern\Tag\Registry')
 		extract(get_prefs());
 
 		return $version;
+	}
+
+	function mkp_generator()
+	{
+		
+		extract(get_prefs());
+
+		return '<meta name="generator" content="Textpattern ' . $version . '" >';
 	}
 	
 	function mkp_if_version($atts, $thing)
