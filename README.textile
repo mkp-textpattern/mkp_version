@@ -33,7 +33,7 @@
 
 <pre><code><txp:version ></code></pre>
 
-<pre><code<txp:generator ></code></pre>
+<pre><code><txp:generator ></code></pre>
 
 <pre><code><txp:mkp_if_version version="4.6.2"><meta name="Textpattern" content="Current: <txp:mkp_version />" /><txp:else /><meta name="Textpattern" content="Classic: <txp:mkp_version >" ></txp:if_version></code></pre>
 
